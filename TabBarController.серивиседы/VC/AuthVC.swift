@@ -107,7 +107,6 @@ class AuthVC: UIViewController {
     
     //MARK: - Создание текстового поля для Email
     fileprivate func createEmailTF() {
-        
     }
     
 }
