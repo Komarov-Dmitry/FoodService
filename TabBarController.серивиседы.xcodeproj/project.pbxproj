@@ -16,6 +16,8 @@
 		E34A46672B07C66B004A6F84 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46662B07C66B004A6F84 /* ProfileVC.swift */; };
 		E34A46692B07C695004A6F84 /* BasketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46682B07C695004A6F84 /* BasketVC.swift */; };
 		E34A46752B07F426004A6F84 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46742B07F426004A6F84 /* AuthVC.swift */; };
+		E3875CF72B0FB689004444DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875CF62B0FB689004444DB /* Model.swift */; };
+		E3875CFA2B0FBAAC004444DB /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875CF92B0FBAAC004444DB /* FoodTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E34A46662B07C66B004A6F84 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		E34A46682B07C695004A6F84 /* BasketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketVC.swift; sourceTree = "<group>"; };
 		E34A46742B07F426004A6F84 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		E3875CF62B0FB689004444DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E3875CF92B0FBAAC004444DB /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,20 +72,38 @@
 				E34A465B2B07BF33004A6F84 /* Assets.xcassets */,
 				E34A465D2B07BF33004A6F84 /* LaunchScreen.storyboard */,
 				E34A46602B07BF33004A6F84 /* Info.plist */,
-				E34A466C2B07C6D9004A6F84 /* VC */,
+				E34A466C2B07C6D9004A6F84 /* Controolers */,
+				E3875CF82B0FB840004444DB /* Models */,
 			);
 			path = "TabBarController.серивиседы";
 			sourceTree = "<group>";
 		};
-		E34A466C2B07C6D9004A6F84 /* VC */ = {
+		E34A466C2B07C6D9004A6F84 /* Controolers */ = {
 			isa = PBXGroup;
 			children = (
-				E34A46562B07BF32004A6F84 /* MenuVC.swift */,
+				E3875CFB2B0FBAB4004444DB /* Menu */,
 				E34A46662B07C66B004A6F84 /* ProfileVC.swift */,
 				E34A46682B07C695004A6F84 /* BasketVC.swift */,
 				E34A46742B07F426004A6F84 /* AuthVC.swift */,
 			);
-			path = VC;
+			path = Controolers;
+			sourceTree = "<group>";
+		};
+		E3875CF82B0FB840004444DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3875CF62B0FB689004444DB /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3875CFB2B0FBAB4004444DB /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E34A46562B07BF32004A6F84 /* MenuVC.swift */,
+				E3875CF92B0FBAAC004444DB /* FoodTableViewCell.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3875CF72B0FB689004444DB /* Model.swift in Sources */,
 				E34A46752B07F426004A6F84 /* AuthVC.swift in Sources */,
 				E34A46672B07C66B004A6F84 /* ProfileVC.swift in Sources */,
 				E34A46692B07C695004A6F84 /* BasketVC.swift in Sources */,
 				E34A46572B07BF32004A6F84 /* MenuVC.swift in Sources */,
+				E3875CFA2B0FBAAC004444DB /* FoodTableViewCell.swift in Sources */,
 				E34A46532B07BF32004A6F84 /* AppDelegate.swift in Sources */,
 				E34A46552B07BF32004A6F84 /* SceneDelegate.swift in Sources */,
 			);
