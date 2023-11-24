@@ -16,7 +16,7 @@ class AuthVC: UIViewController {
     private var emailTF            = UITextField()
     private var passwordTF         = UITextField()
     private var scrollView         = UIScrollView()
-    
+    private var tabBarVC: UITabBarController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +45,7 @@ class AuthVC: UIViewController {
     
     //MARK: - Таргет на кнопку Авторизоваться
     @objc private func authButtonTapped() {
+        
 //        guard let email = emailTF.text, !email.isEmpty,
 //              let password = passwordTF.text, !password.isEmpty else {
 //            createWarrningAuthLabel("Введите почту или пароль")
@@ -72,31 +73,41 @@ class AuthVC: UIViewController {
     
     //MARK: - Создание createTabBarController()
     private func createTabBarController() -> UITabBarController {
+        // Создание MenuVC и его NavigationController
         let menuVC = MenuVC()
+        let menuNavigationController = UINavigationController(rootViewController: menuVC)
+        menuVC.navigationItem.title = "Меню"
         menuVC.tabBarItem = UITabBarItem(title: "Меню", image: UIImage(systemName: "fork.knife"), tag: 0)
-        
+
+        // Создание ProfileVC
         let profileVC = ProfileVC()
+        let profileNavigationController = UINavigationController(rootViewController: profileVC)
+        profileVC.navigationItem.title = "Ваш профиль"
         profileVC.tabBarItem = UITabBarItem(title: "Профиль", image: UIImage(systemName: "person"), tag: 1)
-        
+
+        // Создание BasketVC и его NavigationController
         let basketVC = BasketVC()
-        basketVC.tabBarItem = UITabBarItem(title: "Корзина", image: UIImage(systemName: "basket"), tag: 2)
-        
         let basketNavigationController = UINavigationController(rootViewController: basketVC)
-        
+        basketVC.navigationItem.title = "Корзина"
+        basketVC.tabBarItem = UITabBarItem(title: "Корзина", image: UIImage(systemName: "basket"), tag: 2)
+
+        // Создание UITabBarController и установка в него созданных контроллеров
         let tabBarVC = UITabBarController()
-        tabBarVC.setViewControllers([menuVC, profileVC, basketNavigationController], animated: true)
-        
+        tabBarVC.setViewControllers([menuNavigationController, profileNavigationController, basketNavigationController], animated: true)
+
         tabBarVC.tabBar.tintColor = UIColor.orange
         tabBarVC.tabBar.shadowImage = UIImage()
         tabBarVC.tabBar.backgroundImage = UIImage()
-        
+
         // Добавление линии под таб-баром
         let lineView = UIView(frame: CGRect(x: 0, y: 0, width: tabBarVC.tabBar.frame.width, height: 1))
         lineView.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         tabBarVC.tabBar.addSubview(lineView)
-        
+
+        self.tabBarVC = tabBarVC
         return tabBarVC
     }
+
     
     //MARK: - Создание LabelRegister
     fileprivate func createRegistrationLabel() {
