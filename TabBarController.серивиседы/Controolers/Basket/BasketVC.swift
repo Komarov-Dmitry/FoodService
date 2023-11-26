@@ -5,14 +5,28 @@ class BasketVC: UIViewController {
     var food: Food?
     var basketTableView = UITableView()
     let identifierBaskket = "basketCell"
+    var totalPriceButton = UIButton()
     
     var basketArray = [Food]()
+    
+    fileprivate func createTotalPriceButton() {
+        print("createTotalPriceButton")
+        totalPriceButton.frame = CGRect(x: 16, y :734, width: 361, height: 35)
+        totalPriceButton.layer.cornerRadius = 10
+        totalPriceButton.backgroundColor = UIColor.orange
+        totalPriceButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 19)
+        totalPriceButton.setTitleColor(UIColor.white, for: .normal)
+        
+        view.addSubview(totalPriceButton)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.white
         createBasketTableView()
+        
+        createTotalPriceButton()
         
     }
     
@@ -21,17 +35,39 @@ class BasketVC: UIViewController {
         
         basketTableView.dataSource = self
         basketTableView.delegate = self
-        basketTableView.frame = CGRect(x: 0, y: 59, width: 393, height: 710)
+        basketTableView.frame = CGRect(x: 0, y: 59, width: 393, height: 667)
         view.addSubview(basketTableView)
     }
     
     func addProductToBasket(_ food: Food) {
-        print("addProductToBasket")
         basketArray.append(food)
-        print(basketArray)
-        basketTableView.reloadData()
+        totalPriceButton.isHidden = false
+        updateTotalPriceButton()
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+            self.basketTableView.reloadData()
+        }
+    }
+    
+    
+    private func updateTotalPriceButton() {
+        
+        let totalSum = self.totalSum(array: self.basketArray)
+        totalPriceButton.setTitle("Оплатить \(totalSum) р", for: .normal)
+        totalPriceButton.isHidden = false
+    }
+    
+    private func totalSum(array: [Food]) -> Int {
+        var sum = 0
+        for item in array {
+            sum  = sum + (item.currentPrice * item.count)
+        }
+        return sum
     }
 }
+
+
+
 
 extension BasketVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,11 +82,10 @@ extension BasketVC: UITableViewDelegate, UITableViewDataSource {
         }
         
         let item = basketArray[indexPath.row]
-       
+        
         cell.foodItem = item  // Установите выбранный элемент Food в ячейку
         cell.refreshBasketCell()
-       
-        
+        cell.delegate = self
         return cell
     }
     
@@ -65,3 +100,12 @@ extension BasketVC: UITableViewDelegate, UITableViewDataSource {
     
 }
 
+extension BasketVC: BasketTableViewCellDelegate {
+    func stepperValueChanged(for cell: BasketTableViewCell, count: Int) {
+        guard let indexPath = basketTableView.indexPath(for: cell) else { return }
+        var updatedFood = basketArray[indexPath.row]
+        updatedFood.count = count
+        basketArray[indexPath.row] = updatedFood
+        updateTotalPriceButton()
+    }
+}

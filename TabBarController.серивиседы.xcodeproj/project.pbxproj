@@ -17,6 +17,7 @@
 		E34A46672B07C66B004A6F84 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46662B07C66B004A6F84 /* ProfileVC.swift */; };
 		E34A46692B07C695004A6F84 /* BasketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46682B07C695004A6F84 /* BasketVC.swift */; };
 		E34A46752B07F426004A6F84 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46742B07F426004A6F84 /* AuthVC.swift */; };
+		E377D6812B13952500C438F2 /* BasketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E377D6802B13952500C438F2 /* BasketModel.swift */; };
 		E3875CF72B0FB689004444DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875CF62B0FB689004444DB /* Model.swift */; };
 		E3875CFA2B0FBAAC004444DB /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3875CF92B0FBAAC004444DB /* FoodTableViewCell.swift */; };
 		E3EA745B2B10E78500AA29CB /* DetailCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EA745A2B10E78500AA29CB /* DetailCellViewController.swift */; };
@@ -35,6 +36,7 @@
 		E34A46662B07C66B004A6F84 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		E34A46682B07C695004A6F84 /* BasketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketVC.swift; sourceTree = "<group>"; };
 		E34A46742B07F426004A6F84 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		E377D6802B13952500C438F2 /* BasketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketModel.swift; sourceTree = "<group>"; };
 		E3875CF62B0FB689004444DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E3875CF92B0FBAAC004444DB /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		E3EA745A2B10E78500AA29CB /* DetailCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCellViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E3875CF62B0FB689004444DB /* Model.swift */,
+				E377D6802B13952500C438F2 /* BasketModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				E3875CFA2B0FBAAC004444DB /* FoodTableViewCell.swift in Sources */,
 				E34A46532B07BF32004A6F84 /* AppDelegate.swift in Sources */,
 				E34A46552B07BF32004A6F84 /* SceneDelegate.swift in Sources */,
+				E377D6812B13952500C438F2 /* BasketModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

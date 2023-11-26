@@ -17,7 +17,7 @@ class DetailCellViewController: UIViewController {
     
     var buyButton = UIButton()
     
-    
+    var currentPrice = 0
     
     //MARK: - viewDidLoad()
     override func viewDidLoad() {
@@ -36,8 +36,8 @@ class DetailCellViewController: UIViewController {
             nameLabbel.text = food.name
             descriptionLabel.text = food.description
             imageFood.image = food.imageFood
-            
-            buyButton.setTitle("В корзину за \(food.cost + 120) р", for: .normal)
+            currentPrice = food.costs[1]
+            buyButton.setTitle("В корзину за \(currentPrice) р", for: .normal)
         }
         
         let barButtonItem = UIBarButtonItem(barButtonSystemItem: .reply, target: self, action: #selector(backToMenuVC))
@@ -89,7 +89,6 @@ class DetailCellViewController: UIViewController {
         descriptionLabel.lineBreakMode = .byWordWrapping // Устанавливаем режим переноса по словам
     }
     
-    
     fileprivate func createSizeSegmentControl() {
         sizeSegmentControl = UISegmentedControl(items: sizeArray)
         view.addSubview(sizeSegmentControl)
@@ -108,22 +107,12 @@ class DetailCellViewController: UIViewController {
     @objc private func changeSizeSegmentControl(target: UISegmentedControl) {
         if target == self.sizeSegmentControl {
             if var food = food {
-                if target.selectedSegmentIndex == 0 {
-                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
-                } else if target.selectedSegmentIndex == 1 {
-                    let newCost = food.cost + 120
-                    food.cost = newCost
-                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
-                    
-                } else if target.selectedSegmentIndex == 2 {
-                    let newCost = food.cost + 250
-                    food.cost = newCost
-                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
-                }
-                
+                var index = target.selectedSegmentIndex
+                currentPrice = food.costs[index]
+                food.currentPrice = currentPrice
+                buyButton.setTitle("В корзину за \(food.currentPrice) р", for: .normal)
             }
             updateDescriptionLabel()
-            
             
             if target.selectedSegmentIndex == 0 {
                 doughSegmentControl.selectedSegmentIndex = 0
@@ -170,8 +159,7 @@ class DetailCellViewController: UIViewController {
         buyButton.backgroundColor = UIColor.orange // Устанавливаем цвет фона кнопки
         buyButton.setTitleColor(UIColor.white, for: .normal) // Устанавливаем цвет текста кнопки
         buyButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 19)
-        
-        
+
         // Устанавливаем фрейм кнопки
         buyButton.frame = CGRect(x: 16, y: 773, width: 361, height: 45)
         buyButton.alpha = 1.0
@@ -183,18 +171,15 @@ class DetailCellViewController: UIViewController {
     }
     
     @objc private func changeBuyButton(target: UIButton) {
-        
-        if let food = food {
-            print(food)
-            didFoodAdded?(food)
+            if var food = food {
+                food.currentPrice = currentPrice
+                didFoodAdded?(food)
+            }
+            navigationController?.popViewController(animated: true)
+            if let tabBarVC = self.tabBarController {
+                tabBarVC.selectedIndex = 0
+            }
         }
-        
-        // Закрываем DetailCellViewController
-        navigationController?.popViewController(animated: true)
-        if let tabBarVC = self.tabBarController {
-            tabBarVC.selectedIndex = 0
-        }
-    }
     
     private func updateDescriptionLabel() {
         
@@ -206,10 +191,7 @@ class DetailCellViewController: UIViewController {
         let weightDescription = "\(weightPizza[sizeIndex] - (doughIndex == 1 ? 110 : 0)) г"
         
         descriptionSegmentLabel.text = "\(sizeDescription), \(doughDescription), \(weightDescription)"
-    
+        
     }
-    
-   
-    
-    
+
 }

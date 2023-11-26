@@ -16,24 +16,21 @@ class MenuVC: UIViewController {
         self.view.backgroundColor = UIColor.white
         createMenuTableView()
         
-        fillingArray(name: "Сырная", description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо", image: UIImage(named: "cheesePizza") ?? UIImage(), cost: 299)
+        fillingArray(name: "Сырная", description: "Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо", image: UIImage(named: "cheesePizza") ?? UIImage(), costs: [299,499,699], currentCost: 499, totalPrice: 1)
         
-        fillingArray(name: "Двойной Цыпленок", description: "Цыпленок, моцарелла, фирменный соус альфредо", image: UIImage(named: "chickPizza") ?? UIImage(), cost: 409)
+        fillingArray(name: "Двойной Цыпленок", description: "Цыпленок, моцарелла, фирменный соус альфредо", image: UIImage(named: "chickPizza") ?? UIImage(), costs: [409,609,809], currentCost: 609, totalPrice: 1)
         
-        fillingArray(name: "Пепперони", description: "Пикантная пепперони, моцарелла, томаты, фирменный томатный соус", image: UIImage(named: "pepperoniPizza") ?? UIImage(), cost: 299)
+        fillingArray(name: "Пепперони", description: "Пикантная пепперони, моцарелла, томаты, фирменный томатный соус", image: UIImage(named: "pepperoniPizza") ?? UIImage(), costs: [299,499,699], currentCost: 499, totalPrice: 1)
         
-        fillingArray(name: "Ветчина и сыр", description: "Ветчина, моцарелла, фирменный соус альфредо", image: UIImage(named: "hamAndCheese") ?? UIImage(), cost: 409)
+        fillingArray(name: "Ветчина и сыр", description: "Ветчина, моцарелла, фирменный соус альфредо", image: UIImage(named: "hamAndCheese") ?? UIImage(), costs: [409,609,809], currentCost: 609, totalPrice: 1)
         
-        fillingArray(name: "Микс", description: "Бекон, цыпленок, ветчина, сыр, томаты, лук, соус песто, соус альфредо", image: UIImage(named: "mixPizza") ?? UIImage(), cost: 539)
-        
-        
-        
+        fillingArray(name: "Микс", description: "Бекон, цыпленок, ветчина, сыр, томаты, лук, соус песто, соус альфредо", image: UIImage(named: "mixPizza") ?? UIImage(), costs: [539, 639, 939], currentCost: 639, totalPrice: 1)
     }
     
-    private func fillingArray(name: String, description: String, image: UIImage, cost: Int) {
-        let item = Food(name: name, description: description, imageFood: image, cost: cost)
-        foodArray.append(item)
-    }
+    private func fillingArray(name: String, description: String, image: UIImage, costs: [Int], currentCost: Int, totalPrice: Int) {
+        let item = Food(name: name, description: description, imageFood: image, costs: costs, currentPrice: currentCost)
+           foodArray.append(item)
+       }
     
     private func createMenuTableView() {
         menuTableView.register(FoodTableViewCell.self, forCellReuseIdentifier: identifier)

@@ -46,7 +46,7 @@ class FoodTableViewCell: UITableViewCell {
         print("Обновление ячейки данными: \(model)")
         nameLabel.text = model.name
         descriptionLabel.text = model.description
-        costButton.setTitle("от \(model.cost) р", for: .normal)
+        costButton.setTitle("от \(model.costs[0]) р", for: .normal)
         imageFoodView.image = model.imageFood
     }
     
@@ -64,7 +64,7 @@ class FoodTableViewCell: UITableViewCell {
         descriptionLabel.font = UIFont.systemFont(ofSize: 14)
         descriptionLabel.numberOfLines = 0 // Позволяет использовать несколько строк
         contentView.addSubview(descriptionLabel)
-        descriptionLabel.frame = CGRect(x: 188, y: 62, width: 185, height: 61)
+        descriptionLabel.frame = CGRect(x: 188, y: 22, width: 185, height: 101)
         
         // Добавлены ограничения для многострочной метки
         descriptionLabel.heightAnchor.constraint(greaterThanOrEqualToConstant: 61).isActive = true
