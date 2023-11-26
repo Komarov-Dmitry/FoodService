@@ -13,4 +13,5 @@ struct Food {
     var description: String
     var imageFood: UIImage?
     var cost: Int
+    var count: Int = 1
 }

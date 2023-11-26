@@ -1,6 +1,10 @@
 import UIKit
 
+
+
 class MenuVC: UIViewController {
+    
+    var didFoodAdded: ((Food) -> Void)?
     
     var menuTableView = UITableView()
     var foodArray = [Food]()
@@ -78,14 +82,14 @@ extension MenuVC: UITableViewDelegate, UITableViewDataSource {
         }
     
     func showDetailViewController(for food: Food) {
+       
         let detailVC = DetailCellViewController()
+        
         detailVC.food = food // Передаем данные в новый ViewController
+        detailVC.didFoodAdded = didFoodAdded
         self.hidesBottomBarWhenPushed = true // Скрываем таббар при переходе
         self.navigationController?.pushViewController(detailVC, animated: true)
         self.hidesBottomBarWhenPushed = false // Восстанавливаем обычное поведение таббара
-        
     }
-
-
-    
 }
+

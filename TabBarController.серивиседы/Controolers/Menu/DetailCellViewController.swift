@@ -1,15 +1,9 @@
-//
-//  DetailCellViewController.swift
-//  TabBarController.серивиседы
-//
-//  Created by Комаров Дмитрий  on 24.11.2023.
-//
-
 import UIKit
 
 class DetailCellViewController: UIViewController {
-    var food: Food?
     
+    var food: Food?
+    var didFoodAdded: ((Food) -> Void)?
     var imageFood = UIImageView()
     var nameLabbel = UILabel()
     var descriptionSegmentLabel = UILabel()
@@ -25,6 +19,7 @@ class DetailCellViewController: UIViewController {
     
     
     
+    //MARK: - viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
@@ -41,7 +36,8 @@ class DetailCellViewController: UIViewController {
             nameLabbel.text = food.name
             descriptionLabel.text = food.description
             imageFood.image = food.imageFood
-            buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
+            
+            buyButton.setTitle("В корзину за \(food.cost + 120) р", for: .normal)
         }
         
         let barButtonItem = UIBarButtonItem(barButtonSystemItem: .reply, target: self, action: #selector(backToMenuVC))
@@ -64,11 +60,11 @@ class DetailCellViewController: UIViewController {
     }
     
     @objc func backToMenuVC() {
-            // Возвращаемся к контроллеру MenuVC
-            self.navigationController?.popViewController(animated: true)
-        }
+        // Возвращаемся к контроллеру MenuVC
+        self.navigationController?.popViewController(animated: true)
+    }
     
-    
+    //MARK: - CreateOutlet
     fileprivate func createNameLabel() {
         view.addSubview(nameLabbel)
         nameLabbel.frame = CGRect(x: 16, y: 460, width: 361, height: 21)
@@ -111,7 +107,23 @@ class DetailCellViewController: UIViewController {
     
     @objc private func changeSizeSegmentControl(target: UISegmentedControl) {
         if target == self.sizeSegmentControl {
+            if var food = food {
+                if target.selectedSegmentIndex == 0 {
+                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
+                } else if target.selectedSegmentIndex == 1 {
+                    let newCost = food.cost + 120
+                    food.cost = newCost
+                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
+                    
+                } else if target.selectedSegmentIndex == 2 {
+                    let newCost = food.cost + 250
+                    food.cost = newCost
+                    buyButton.setTitle("В корзину за \(food.cost) р", for: .normal)
+                }
+                
+            }
             updateDescriptionLabel()
+            
             
             if target.selectedSegmentIndex == 0 {
                 doughSegmentControl.selectedSegmentIndex = 0
@@ -166,8 +178,23 @@ class DetailCellViewController: UIViewController {
         
         // Добавляем кнопку к представлению
         view.addSubview(buyButton)
+        
+        buyButton.addTarget(self, action: #selector(changeBuyButton(target:)), for: .touchUpInside)
     }
     
+    @objc private func changeBuyButton(target: UIButton) {
+        
+        if let food = food {
+            print(food)
+            didFoodAdded?(food)
+        }
+        
+        // Закрываем DetailCellViewController
+        navigationController?.popViewController(animated: true)
+        if let tabBarVC = self.tabBarController {
+            tabBarVC.selectedIndex = 0
+        }
+    }
     
     private func updateDescriptionLabel() {
         
@@ -179,7 +206,10 @@ class DetailCellViewController: UIViewController {
         let weightDescription = "\(weightPizza[sizeIndex] - (doughIndex == 1 ? 110 : 0)) г"
         
         descriptionSegmentLabel.text = "\(sizeDescription), \(doughDescription), \(weightDescription)"
+    
     }
+    
+   
     
     
 }

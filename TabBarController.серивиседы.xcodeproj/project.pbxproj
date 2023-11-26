@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33008AF2B12213700BF0E33 /* BasketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33008AE2B12213700BF0E33 /* BasketTableViewCell.swift */; };
 		E34A46532B07BF32004A6F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46522B07BF32004A6F84 /* AppDelegate.swift */; };
 		E34A46552B07BF32004A6F84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46542B07BF32004A6F84 /* SceneDelegate.swift */; };
 		E34A46572B07BF32004A6F84 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A46562B07BF32004A6F84 /* MenuVC.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E33008AE2B12213700BF0E33 /* BasketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewCell.swift; sourceTree = "<group>"; };
 		E34A464F2B07BF32004A6F84 /* TabBarController.серивиседы.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBarController.серивиседы.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34A46522B07BF32004A6F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34A46542B07BF32004A6F84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E33008B02B12214000BF0E33 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				E34A46682B07C695004A6F84 /* BasketVC.swift */,
+				E33008AE2B12213700BF0E33 /* BasketTableViewCell.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
 		E34A46462B07BF32004A6F84 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +96,7 @@
 			children = (
 				E3875CFB2B0FBAB4004444DB /* Menu */,
 				E34A46662B07C66B004A6F84 /* ProfileVC.swift */,
-				E34A46682B07C695004A6F84 /* BasketVC.swift */,
+				E33008B02B12214000BF0E33 /* Basket */,
 				E34A46742B07F426004A6F84 /* AuthVC.swift */,
 			);
 			path = Controolers;
@@ -183,6 +194,7 @@
 				E3875CF72B0FB689004444DB /* Model.swift in Sources */,
 				E34A46752B07F426004A6F84 /* AuthVC.swift in Sources */,
 				E3EA745B2B10E78500AA29CB /* DetailCellViewController.swift in Sources */,
+				E33008AF2B12213700BF0E33 /* BasketTableViewCell.swift in Sources */,
 				E34A46672B07C66B004A6F84 /* ProfileVC.swift in Sources */,
 				E34A46692B07C695004A6F84 /* BasketVC.swift in Sources */,
 				E34A46572B07BF32004A6F84 /* MenuVC.swift in Sources */,

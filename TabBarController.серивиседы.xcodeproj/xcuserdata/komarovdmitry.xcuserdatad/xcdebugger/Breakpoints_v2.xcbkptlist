@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5C9E1891-58AF-495A-929C-C8BFDA9F1645"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Menu/DetailCellViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "changeBuyButton(target:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c181e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c181e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c199a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c199a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c19d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c19d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c19d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c19d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c6789"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c662e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c660d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "189"
+                  endingLineNumber = "189"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "26E1BB27-BFFC-4F4A-A671-5A484D573761 - a60fe81c916c664b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.changeBuyButton(target: __C.UIButton) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5AE6D6A-84C8-43A3-8AEB-C656D96E138F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Basket/BasketVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5AE6D6A-84C8-43A3-8AEB-C656D96E138F - 14148ceca4a619f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "A5AE6D6A-84C8-43A3-8AEB-C656D96E138F - 14148ceca4a6183f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "A5AE6D6A-84C8-43A3-8AEB-C656D96E138F - 14148ceca4a619d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "A5AE6D6A-84C8-43A3-8AEB-C656D96E138F - 14148ceca4a6183f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF9CA446-ABEE-4EE5-8C80-2F7DFEA8DC45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Basket/BasketVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "createBasketTableView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF9CA446-ABEE-4EE5-8C80-2F7DFEA8DC45 - ed24a3cc600652d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.createBasketTableView() -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "CF9CA446-ABEE-4EE5-8C80-2F7DFEA8DC45 - ed24a3cc600652d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.createBasketTableView() -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEA91CED-8672-422F-8B10-225D9985A006"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Menu/DetailCellViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEA91CED-8672-422F-8B10-225D9985A006 - 5624aa044b7ffe7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "EEA91CED-8672-422F-8B10-225D9985A006 - 5624aa044b7ffe7f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.DetailCellViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/DetailCellViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C832ADB-66E9-4B45-BBD0-47A337EFA138"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Basket/BasketVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "addProductToBasket(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C832ADB-66E9-4B45-BBD0-47A337EFA138 - 4e8a2b9257a6b11b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.addProductToBasket(TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.Food) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5C832ADB-66E9-4B45-BBD0-47A337EFA138 - 4e8a2b9257a6b11b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.BasketVC.addProductToBasket(TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.Food) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Basket/BasketVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF077B55-4DE3-4D5B-8F83-15E1C9C9B22A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;/Controolers/Menu/MenuVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "showDetailViewController(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FF077B55-4DE3-4D5B-8F83-15E1C9C9B22A - 2e66370eb8eb62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.MenuVC.showDetailViewController(for: TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.Food) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/MenuVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "FF077B55-4DE3-4D5B-8F83-15E1C9C9B22A - 2e66370eb8eb03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.MenuVC.showDetailViewController(for: TabBarController_&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;.Food) -&gt; ()"
+                  moduleName = "TabBarController.&#x441;&#x435;&#x440;&#x438;&#x432;&#x438;&#x441;&#x435;&#x434;&#x44b;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/komarovdmitry/Desktop/Swift/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/TabBarController.%D1%81%D0%B5%D1%80%D0%B8%D0%B2%D0%B8%D1%81%D0%B5%D0%B4%D1%8B/Controolers/Menu/MenuVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

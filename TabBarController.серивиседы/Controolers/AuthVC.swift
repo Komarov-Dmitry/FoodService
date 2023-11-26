@@ -94,6 +94,7 @@ class AuthVC: UIViewController {
         // Создание UITabBarController и установка в него созданных контроллеров
         let tabBarVC = UITabBarController()
         tabBarVC.setViewControllers([menuNavigationController, profileNavigationController, basketNavigationController], animated: true)
+        menuVC.didFoodAdded = { food in basketVC.addProductToBasket(food)}
 
         tabBarVC.tabBar.tintColor = UIColor.orange
         tabBarVC.tabBar.shadowImage = UIImage()

@@ -25,22 +25,22 @@ class FoodTableViewCell: UITableViewCell {
         // Код инициализации
     }
     
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
-            super.setSelected(selected, animated: animated)
-
-            if selected {
-                self.contentView.backgroundColor = UIColor.clear
-            }
+        super.setSelected(selected, animated: animated)
+        
+        if selected {
+            self.contentView.backgroundColor = UIColor.clear
         }
-
-        override func setHighlighted(_ highlighted: Bool, animated: Bool) {
-            super.setHighlighted(highlighted, animated: animated)
-
-            if highlighted {
-                self.contentView.backgroundColor = UIColor.clear
-            }
+    }
+    
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+        
+        if highlighted {
+            self.contentView.backgroundColor = UIColor.clear
         }
+    }
     
     func refresh(_ model: Food) {
         print("Обновление ячейки данными: \(model)")
